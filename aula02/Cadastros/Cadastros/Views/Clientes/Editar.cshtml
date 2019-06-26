@@ -1,0 +1,22 @@
+﻿@model  Cadastros.Models.Cliente
+@{
+    ViewData["Title"] = "Editar";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Editar Cliente</h1>
+<form action="/" method="post">
+    <div>
+        <label>Nome</label>
+        <input type="text" name="nome" value="@Model.Nome" />
+    </div>
+    <div>
+        <label>Idade</label>
+        <input type="number" name="idade" value="@Model.Idade" />
+    </div>
+
+    <div>
+        <button type="submit">Salvar</button>
+        <a href="/Cliente/Index">Voltar</a>
+    </div>
+</form>

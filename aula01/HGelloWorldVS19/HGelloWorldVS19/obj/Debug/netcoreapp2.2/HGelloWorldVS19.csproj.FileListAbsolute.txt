@@ -1,0 +1,14 @@
+D:\maurilio\aula01\HGelloWorldVS19\HGelloWorldVS19\bin\Debug\netcoreapp2.2\HGelloWorldVS19.deps.json
+D:\maurilio\aula01\HGelloWorldVS19\HGelloWorldVS19\bin\Debug\netcoreapp2.2\HGelloWorldVS19.runtimeconfig.json
+D:\maurilio\aula01\HGelloWorldVS19\HGelloWorldVS19\bin\Debug\netcoreapp2.2\HGelloWorldVS19.runtimeconfig.dev.json
+D:\maurilio\aula01\HGelloWorldVS19\HGelloWorldVS19\bin\Debug\netcoreapp2.2\HGelloWorldVS19.dll
+D:\maurilio\aula01\HGelloWorldVS19\HGelloWorldVS19\bin\Debug\netcoreapp2.2\HGelloWorldVS19.pdb
+D:\maurilio\aula01\HGelloWorldVS19\HGelloWorldVS19\obj\Debug\netcoreapp2.2\HGelloWorldVS19.csprojAssemblyReference.cache
+D:\maurilio\aula01\HGelloWorldVS19\HGelloWorldVS19\obj\Debug\netcoreapp2.2\HGelloWorldVS19.csproj.CoreCompileInputs.cache
+D:\maurilio\aula01\HGelloWorldVS19\HGelloWorldVS19\obj\Debug\netcoreapp2.2\HGelloWorldVS19.RazorAssemblyInfo.cache
+D:\maurilio\aula01\HGelloWorldVS19\HGelloWorldVS19\obj\Debug\netcoreapp2.2\HGelloWorldVS19.RazorAssemblyInfo.cs
+D:\maurilio\aula01\HGelloWorldVS19\HGelloWorldVS19\obj\Debug\netcoreapp2.2\HGelloWorldVS19.AssemblyInfoInputs.cache
+D:\maurilio\aula01\HGelloWorldVS19\HGelloWorldVS19\obj\Debug\netcoreapp2.2\HGelloWorldVS19.AssemblyInfo.cs
+D:\maurilio\aula01\HGelloWorldVS19\HGelloWorldVS19\obj\Debug\netcoreapp2.2\HGelloWorldVS19.RazorTargetAssemblyInfo.cache
+D:\maurilio\aula01\HGelloWorldVS19\HGelloWorldVS19\obj\Debug\netcoreapp2.2\HGelloWorldVS19.dll
+D:\maurilio\aula01\HGelloWorldVS19\HGelloWorldVS19\obj\Debug\netcoreapp2.2\HGelloWorldVS19.pdb

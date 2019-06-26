@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<h1 class="mt-5">Categorias</h1>
+<p class="lead">Listagens de cCategorias</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Acao</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var categoria in Model)
+        {
+            <tr>
+                <td scope="row">@categoria.Nome</td>
+                <td scope="row">
+                    <a class="btn btn-outline-success btn-sm" href="@Url.Action("Edit", "Categorias")/@categoria.Id">Editar</a>
+                    <button class="btn btn-outline-danger btn-sm">Excluir</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

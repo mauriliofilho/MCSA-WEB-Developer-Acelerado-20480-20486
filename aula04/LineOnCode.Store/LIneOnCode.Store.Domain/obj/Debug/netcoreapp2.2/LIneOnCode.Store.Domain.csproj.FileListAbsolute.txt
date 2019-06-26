@@ -1,0 +1,9 @@
+D:\maurilio\aula04\LineOnCode.Store\LIneOnCode.Store.Domain\bin\Debug\netcoreapp2.2\LIneOnCode.Store.Domain.deps.json
+D:\maurilio\aula04\LineOnCode.Store\LIneOnCode.Store.Domain\bin\Debug\netcoreapp2.2\LIneOnCode.Store.Domain.dll
+D:\maurilio\aula04\LineOnCode.Store\LIneOnCode.Store.Domain\bin\Debug\netcoreapp2.2\LIneOnCode.Store.Domain.pdb
+D:\maurilio\aula04\LineOnCode.Store\LIneOnCode.Store.Domain\obj\Debug\netcoreapp2.2\LIneOnCode.Store.Domain.csprojAssemblyReference.cache
+D:\maurilio\aula04\LineOnCode.Store\LIneOnCode.Store.Domain\obj\Debug\netcoreapp2.2\LIneOnCode.Store.Domain.csproj.CoreCompileInputs.cache
+D:\maurilio\aula04\LineOnCode.Store\LIneOnCode.Store.Domain\obj\Debug\netcoreapp2.2\LIneOnCode.Store.Domain.AssemblyInfoInputs.cache
+D:\maurilio\aula04\LineOnCode.Store\LIneOnCode.Store.Domain\obj\Debug\netcoreapp2.2\LIneOnCode.Store.Domain.AssemblyInfo.cs
+D:\maurilio\aula04\LineOnCode.Store\LIneOnCode.Store.Domain\obj\Debug\netcoreapp2.2\LIneOnCode.Store.Domain.dll
+D:\maurilio\aula04\LineOnCode.Store\LIneOnCode.Store.Domain\obj\Debug\netcoreapp2.2\LIneOnCode.Store.Domain.pdb

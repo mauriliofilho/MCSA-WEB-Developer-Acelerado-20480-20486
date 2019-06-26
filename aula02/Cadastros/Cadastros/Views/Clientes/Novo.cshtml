@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewData["Title"] = "Novo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Novo Cliente</h1>
+<form method="post">
+    <div>
+        <label>Nome</label>
+        <input type="text" name="nome" />
+    </div>
+    <div>
+        <label>Idade</label>
+        <input type="number" name="idade" />
+    </div>
+
+    <div>
+        <button type="submit">Salvar</button>
+        <a href="/Cliente/Index">Voltar</a>
+    </div>
+
+</form>
+

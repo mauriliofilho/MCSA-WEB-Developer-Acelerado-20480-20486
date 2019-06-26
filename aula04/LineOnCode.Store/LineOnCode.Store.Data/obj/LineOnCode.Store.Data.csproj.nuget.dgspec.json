@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\maurilio\\aula04\\LineOnCode.Store\\LineOnCode.Store.Data\\LineOnCode.Store.Data.csproj": {}
+  },
+  "projects": {
+    "D:\\maurilio\\aula04\\LineOnCode.Store\\LineOnCode.Store.Data\\LineOnCode.Store.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\maurilio\\aula04\\LineOnCode.Store\\LineOnCode.Store.Data\\LineOnCode.Store.Data.csproj",
+        "projectName": "LineOnCode.Store.Data",
+        "projectPath": "D:\\maurilio\\aula04\\LineOnCode.Store\\LineOnCode.Store.Data\\LineOnCode.Store.Data.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\maurilio\\aula04\\LineOnCode.Store\\LineOnCode.Store.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\maurilio\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LIneOnCode.Store.Domain.csproj": {
+                "projectPath": "D:\\maurilio\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LIneOnCode.Store.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\maurilio\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LIneOnCode.Store.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\maurilio\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LIneOnCode.Store.Domain.csproj",
+        "projectName": "LIneOnCode.Store.Domain",
+        "projectPath": "D:\\maurilio\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LIneOnCode.Store.Domain.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\maurilio\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
