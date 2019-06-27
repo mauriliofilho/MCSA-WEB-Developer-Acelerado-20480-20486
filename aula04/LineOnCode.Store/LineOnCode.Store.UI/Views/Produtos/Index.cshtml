@@ -1,4 +1,6 @@
-﻿@{
+﻿@model  IEnumerable<Produto>
+
+@{
     ViewData["Title"] = "Produtos";
 }
 
@@ -20,17 +22,76 @@
         <tbody>
             @foreach (var produto in Model)
             {
-                <tr>
+                <tr id="item-@produto.Id">
                     <td scope="row">@produto.Nome</td>
                     <td scope="row">@produto.Categoria.Nome</td>
                     <td scope="row">@produto.ValorUnitario</td>
                     <td scope="row">
                         <a class="btn btn-outline-success btn-sm" href="@Url.Action("AddEdit", "Produtos")/@produto.Id">Editar</a>
-                        <button class="btn btn-outline-danger btn-sm">Excluir</button>
+                        <button class="btn btn-outline-danger btn-sm" onclick="delItem(@produto.Id, '@produto.Nome')">Excluir</button>
                     </td>
                 </tr>
             }
         </tbody>
     </table>
 </div>
+
+<div class="modal fading" id="delModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Excluir</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Quer excluir o produto <span class="badge badge-pill badge-danger" id="nomeItem"></span>?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary" onclick="confirmarDel()">Confirmar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let _id = 0;
+
+    function delItem(id, nome) {
+        document.querySelector('#nomeItem').textContent = nome;
+        $('#delModal').modal('show');
+        _id = id;
+    }
+
+
+    function confirmarDel() {
+        // alert('excluindo ' + _id);
+        let xhr = new XMLHttpRequest();
+        xhr.open('delete', '@Url.Action("Excluir","Produtos")/' + _id);
+        xhr.onloadend = _ => {
+            // console.log(xhr);
+            switch (xhr.status) {
+                case 204:
+                    document.querySelector('#item-' + _id).remove();
+                    toastr.success('Item excluído c/ sucesso!','FN Store');
+                    break;
+                case 404:
+                    toastr.warning('Item não localizado na base','FN Store');
+                    break;
+                default:
+                    toastr.error('Ocorreu um erro ao tentar excluir', 'FN Store');
+            }
+            $('#delModal').modal('hide');
+        }
+
+        xhr.send();
+    }
+</script>
+
+@section scripts{
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+}
 

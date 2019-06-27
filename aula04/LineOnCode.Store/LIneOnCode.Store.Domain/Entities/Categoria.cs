@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LIneOnCode.Store.Domain.Entities
+namespace LineOnCode.Store.Domain.Entities
 {
     [Table("Categoria")]
     public class Categoria : Entity

@@ -1,4 +1,4 @@
-﻿using LIneOnCode.Store.Domain.Contracts.Repositories;
+﻿using LineOnCode.Store.Domain.Contracts.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;

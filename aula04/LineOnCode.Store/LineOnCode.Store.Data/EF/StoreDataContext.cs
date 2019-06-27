@@ -1,4 +1,4 @@
-﻿using LIneOnCode.Store.Domain.Entities;
+﻿using LineOnCode.Store.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;

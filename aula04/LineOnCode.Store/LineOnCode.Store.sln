@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineOnCode.Store.UI", "LineOnCode.Store.UI\LineOnCode.Store.UI.csproj", "{01607FFB-D99B-4F3D-AF1A-A5C76C4E2B7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineOnCode.Store.UI", "LineOnCode.Store.UI\LineOnCode.Store.UI.csproj", "{01607FFB-D99B-4F3D-AF1A-A5C76C4E2B7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LIneOnCode.Store.Domain", "LIneOnCode.Store.Domain\LIneOnCode.Store.Domain.csproj", "{7FD7066A-5938-4570-943D-12D02A479F23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineOnCode.Store.Domain", "LIneOnCode.Store.Domain\LineOnCode.Store.Domain.csproj", "{7FD7066A-5938-4570-943D-12D02A479F23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineOnCode.Store.Data", "LineOnCode.Store.Data\LineOnCode.Store.Data.csproj", "{21E3A2D4-78D7-4BED-B113-5DEEB0D9A1B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineOnCode.Store.Data", "LineOnCode.Store.Data\LineOnCode.Store.Data.csproj", "{21E3A2D4-78D7-4BED-B113-5DEEB0D9A1B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

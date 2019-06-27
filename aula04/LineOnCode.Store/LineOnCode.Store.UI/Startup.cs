@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using LineOnCode.Store.Data.EF;
 using LineOnCode.Store.Data.EF.Repositories;
-using LIneOnCode.Store.Domain.Contracts.Repositories;
+using LineOnCode.Store.Domain.Contracts.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;

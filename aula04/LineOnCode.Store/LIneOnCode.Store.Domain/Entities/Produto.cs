@@ -6,16 +6,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LIneOnCode.Store.Domain.Entities
+namespace LineOnCode.Store.Domain.Entities
 {
     [Table("Produto")]
     public class Produto : Entity
     {
         [Key]
         public int Id { get; set; }
+
         [Column("Nome", Order = 1, TypeName = "Varchar(100)")]
         [Required]
         public string Nome { get; set; }
+
         [Column(TypeName = "money")]
         public decimal ValorUnitario { get; set; }
 

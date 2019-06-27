@@ -1,5 +1,5 @@
-﻿using LIneOnCode.Store.Domain.Contracts.Repositories;
-using LIneOnCode.Store.Domain.Entities;
+﻿using LineOnCode.Store.Domain.Contracts.Repositories;
+using LineOnCode.Store.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

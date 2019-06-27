@@ -1,6 +1,7 @@
 ﻿using LineOnCode.Store.Data.EF;
-using LIneOnCode.Store.Domain.Contracts.Repositories;
-using LIneOnCode.Store.Domain.Entities;
+using LineOnCode.Store.UI.ViewModels;
+using LineOnCode.Store.Domain.Contracts.Repositories;
+using LineOnCode.Store.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -30,11 +31,14 @@ namespace LineOnCode.Store.UI.Controllers
         [HttpGet]
         public IActionResult AddEdit(int? id)
         {
-            Produto produto = null;
+            AddEditVM produto = null;
 
             if (id != null)
             {
-                produto = _prodRepository.Get((int)id);
+                var data = _prodRepository.Get((int)id);
+                if (data == null) return NotFound();
+
+                produto = data.ToProdutoVM();
             }
             ViewBag.Categoria = _catRepository.GetAll();
             //ViewData["Categoria"] = _catRepository.GetAll();
@@ -42,18 +46,35 @@ namespace LineOnCode.Store.UI.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddEdit(Produto model)
+        public IActionResult AddEdit(int Id, AddEditVM model)
         {
-            if (model.Id > 0)
+            if (!ModelState.IsValid)
             {
-                _prodRepository.Edit(model);
+                ViewBag.Categoria = _catRepository.GetAll();
+                return View(model);
+            }
+
+            if (Id == 0)
+            {
+                _prodRepository.Add(model.ToProduto());
             }
             else
             {
-                _prodRepository.Add(model);
+                _prodRepository.Edit(model.ToProduto(Id));
             }
             return RedirectToAction("Index");
 
+        }
+
+        [HttpDelete]
+        public IActionResult Excluir(int id)
+        {
+            var data = _prodRepository.Get(id);
+
+            if (data == null) return NotFound();
+
+            _prodRepository.Delete(data);
+            return NoContent();
         }
     }
 }

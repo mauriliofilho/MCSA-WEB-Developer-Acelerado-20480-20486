@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LIneOnCode.Store.Domain\LIneOnCode.Store.Domain.csproj" />
+    <ProjectReference Include="..\LIneOnCode.Store.Domain\LineOnCode.Store.Domain.csproj" />
   </ItemGroup>
 
 </Project>
