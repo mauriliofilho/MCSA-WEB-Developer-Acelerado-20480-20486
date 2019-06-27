@@ -13,13 +13,14 @@ namespace LineOnCode.Store.UI.ViewModels
 
             [Required(ErrorMessage = "campo obrigatório")]
             [StringLength(100, ErrorMessage = "limite do {0} é {1}")]
-
+            [Display(Name ="Nome")]
             public string Nome { get; set; }
             [Required(ErrorMessage = "campo obrigatório")]
-
+            [Display(Name ="Valor Unitario")]
             public decimal? ValorUnitario { get; set; }
-            [Required(ErrorMessage = "campo obrigatório")]
 
+            [Required(ErrorMessage = "campo obrigatório")]
+            [Display(Name ="Categoria do produto")]
             public int? CategoriaId { get; set; }
 
     }
