@@ -14,6 +14,8 @@ namespace LineOnCode.Store.Domain.Contracts.Repositories
         void Delete(T entity);
 
         T Get(int id);
+        Task<T> GetAsync(int id);
         IEnumerable<T> GetAll();
+        Task<IEnumerable<T>> GetAllAsync();
     }
 }

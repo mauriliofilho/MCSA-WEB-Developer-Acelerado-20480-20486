@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Usuario>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Usuario</h1>
+
+<div>
+    <a class="btn btn-outline-secondary" href="@Url.Action("AddEdit", "Usuarios")">Adicionar</a>
+</div>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Usuario</th>
+                <th scope="col">Acao</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var usuario in Model)
+            {
+                <tr id="item-@usuario.Id">
+                    <td scope="row">@usuario.Nome</td>
+                    <td scope="row">@usuario.UserName</td>
+                    <td scope="row">
+                        @*<a class="btn btn-outline-success btn-sm" href="@Url.Action("AddEdit", "Produtos", new { id = @produto.Id})">Editar</a>*@
+                        <a class="btn btn-outline-success btn-sm" asp-action="AddEdit" asp-controller="Produtos" asp-route-id="@usuario.Id">Editar</a>
+                        <button class="btn btn-outline-danger btn-sm" onclick="delItem(@usuario.Id, '@usuario.Nome')">Excluir</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="modal fading" id="delModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Excluir</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Quer excluir o usuario <span class="badge badge-pill badge-danger" id="nomeItem"></span>?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary" onclick="confirmarDel()">Confirmar</button>
+            </div>
+        </div>
+    </div>
+</div>
+

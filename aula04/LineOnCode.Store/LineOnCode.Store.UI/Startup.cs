@@ -29,6 +29,7 @@ namespace LineOnCode.Store.UI
 
             services.AddTransient<IProdutoRepository, ProdutoRepositoryEF>();
             services.AddTransient<ICategoriaRepository, CategoriaRepositoryEF>();
+            services.AddTransient<IUsuarioRepository, UsuarioRepositoryEF>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,6 +49,10 @@ namespace LineOnCode.Store.UI
             //app.UseMvcWithDefaultRoute();
             app.UseStaticFiles();
             app.UseMvc(routes => {
+                routes.MapRoute("about", "sobre", new { controller = "Home", action = "About" });
+                routes.MapRoute("edit", "{controller}/Editar/{id}", new { action = "AddEdit" });
+                routes.MapRoute("add", "{controller}/Adicionar", new { action = "AddEdit" });
+
                 routes.MapRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
         }

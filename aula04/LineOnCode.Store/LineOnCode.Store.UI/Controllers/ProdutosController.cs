@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace LineOnCode.Store.UI.Controllers
 {
@@ -40,9 +41,14 @@ namespace LineOnCode.Store.UI.Controllers
 
                 produto = data.ToProdutoVM();
             }
-            ViewBag.Categoria = _catRepository.GetAll();
+            loadCategoria();
             //ViewData["Categoria"] = _catRepository.GetAll();
             return View(produto);
+        }
+
+        private void loadCategoria()
+        {
+            ViewBag.Categoria = _catRepository.GetAll().Select(x => new SelectListItem(x.Nome, x.Id.ToString()));
         }
 
         [HttpPost]
@@ -50,7 +56,7 @@ namespace LineOnCode.Store.UI.Controllers
         {
             if (!ModelState.IsValid)
             {
-                ViewBag.Categoria = _catRepository.GetAll();
+                loadCategoria();
                 return View(model);
             }
 

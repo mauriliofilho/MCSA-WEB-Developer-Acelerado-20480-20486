@@ -46,5 +46,15 @@ namespace LineOnCode.Store.Data.EF.Repositories
         {
             return _db.ToList();
         }
+
+        public async Task<T> GetAsync(int id)
+        {
+            return await _db.FindAsync();
+        }
+
+        public async Task<IEnumerable<T>> GetAllAsync()
+        {
+            return await _db.ToListAsync();
+        }
     }
 }

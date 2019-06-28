@@ -27,7 +27,8 @@
                     <td scope="row">@produto.Categoria.Nome</td>
                     <td scope="row">@produto.ValorUnitario</td>
                     <td scope="row">
-                        <a class="btn btn-outline-success btn-sm" href="@Url.Action("AddEdit", "Produtos")/@produto.Id">Editar</a>
+                        @*<a class="btn btn-outline-success btn-sm" href="@Url.Action("AddEdit", "Produtos", new { id = @produto.Id})">Editar</a>*@
+                        <a class="btn btn-outline-success btn-sm" asp-action="AddEdit" asp-controller="Produtos" asp-route-id="@produto.Id">Editar</a>
                         <button class="btn btn-outline-danger btn-sm" onclick="delItem(@produto.Id, '@produto.Nome')">Excluir</button>
                     </td>
                 </tr>
