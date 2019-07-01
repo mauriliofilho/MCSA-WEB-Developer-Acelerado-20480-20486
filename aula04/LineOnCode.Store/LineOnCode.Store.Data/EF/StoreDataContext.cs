@@ -25,6 +25,10 @@ namespace LineOnCode.Store.Data.EF
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Usuario>()
+                .HasIndex(u => u.UserName)
+                .IsUnique();
+
             modelBuilder.Init();
         }
     }

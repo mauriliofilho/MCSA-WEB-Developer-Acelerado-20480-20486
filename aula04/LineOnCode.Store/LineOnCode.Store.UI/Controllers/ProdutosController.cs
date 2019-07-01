@@ -9,9 +9,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LineOnCode.Store.UI.Controllers
 {
+    [Authorize]
     public class ProdutosController : Controller
     {
         private readonly IProdutoRepository _prodRepository;

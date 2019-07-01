@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using LineOnCode.Store.Data.EF;
 using LineOnCode.Store.Data.EF.Repositories;
 using LineOnCode.Store.Domain.Contracts.Repositories;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -19,6 +20,12 @@ namespace LineOnCode.Store.UI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddAuthentication(configureOptions =>
+            {
+                configureOptions.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                configureOptions.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                configureOptions.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+            }).AddCookie(configureOptions => configureOptions.LoginPath = "/auth/signin" );
 
             //Unico na Aplicacao
             //services.AddSingleton<StoreDataContext>();
@@ -48,6 +55,7 @@ namespace LineOnCode.Store.UI
 
             //app.UseMvcWithDefaultRoute();
             app.UseStaticFiles();
+            app.UseAuthentication();
             app.UseMvc(routes => {
                 routes.MapRoute("about", "sobre", new { controller = "Home", action = "About" });
                 routes.MapRoute("edit", "{controller}/Editar/{id}", new { action = "AddEdit" });

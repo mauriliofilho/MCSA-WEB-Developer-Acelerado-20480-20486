@@ -1,5 +1,6 @@
 ﻿using LineOnCode.Store.Domain.Contracts.Repositories;
 using LineOnCode.Store.UI.ViewModels.Usuarios;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace LineOnCode.Store.UI.Controllers
 {
+    [Authorize]
     public class UsuariosController : Controller
     {
         private readonly IUsuarioRepository _usuarioRepository;
