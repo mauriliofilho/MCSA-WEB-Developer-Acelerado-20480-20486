@@ -907,14 +907,14 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
-      "LIneOnCode.Store.Domain/1.0.0": {
+      "LineOnCode.Store.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "compile": {
-          "bin/placeholder/LIneOnCode.Store.Domain.dll": {}
+          "bin/placeholder/LineOnCode.Store.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LIneOnCode.Store.Domain.dll": {}
+          "bin/placeholder/LineOnCode.Store.Domain.dll": {}
         }
       }
     }
@@ -3468,39 +3468,42 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "LIneOnCode.Store.Domain/1.0.0": {
+    "LineOnCode.Store.Domain/1.0.0": {
       "type": "project",
-      "path": "../LIneOnCode.Store.Domain/LIneOnCode.Store.Domain.csproj",
-      "msbuildProject": "../LIneOnCode.Store.Domain/LIneOnCode.Store.Domain.csproj"
+      "path": "../LIneOnCode.Store.Domain/LineOnCode.Store.Domain.csproj",
+      "msbuildProject": "../LIneOnCode.Store.Domain/LineOnCode.Store.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "LIneOnCode.Store.Domain >= 1.0.0",
+      "LineOnCode.Store.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 2.2.4",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.2.4",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\Maurilio Filho\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\maurilio\\aula04\\LineOnCode.Store\\LineOnCode.Store.Data\\LineOnCode.Store.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LineOnCode.Store.Data\\LineOnCode.Store.Data.csproj",
       "projectName": "LineOnCode.Store.Data",
-      "projectPath": "D:\\maurilio\\aula04\\LineOnCode.Store\\LineOnCode.Store.Data\\LineOnCode.Store.Data.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\maurilio\\aula04\\LineOnCode.Store\\LineOnCode.Store.Data\\obj\\",
+      "projectPath": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LineOnCode.Store.Data\\LineOnCode.Store.Data.csproj",
+      "packagesPath": "C:\\Users\\Maurilio Filho\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LineOnCode.Store.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Maurilio Filho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -3512,8 +3515,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\maurilio\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LIneOnCode.Store.Domain.csproj": {
-              "projectPath": "D:\\maurilio\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LIneOnCode.Store.Domain.csproj"
+            "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LineOnCode.Store.Domain.csproj": {
+              "projectPath": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LineOnCode.Store.Domain.csproj"
             }
           }
         }

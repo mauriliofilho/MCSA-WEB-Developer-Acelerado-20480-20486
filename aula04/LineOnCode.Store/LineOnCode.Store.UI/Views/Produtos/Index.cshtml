@@ -76,13 +76,13 @@
             switch (xhr.status) {
                 case 204:
                     document.querySelector('#item-' + _id).remove();
-                    toastr.success('Item excluído c/ sucesso!','FN Store');
+                    toastr.success('Item excluído c/ sucesso!','Line on Code Store');
                     break;
                 case 404:
-                    toastr.warning('Item não localizado na base','FN Store');
+                    toastr.warning('Item não localizado na base','Line on Code Store');
                     break;
                 default:
-                    toastr.error('Ocorreu um erro ao tentar excluir', 'FN Store');
+                    toastr.error('Ocorreu um erro ao tentar excluir', 'Line on Code Store');
             }
             $('#delModal').modal('hide');
         }

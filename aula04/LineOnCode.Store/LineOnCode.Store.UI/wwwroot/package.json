@@ -6,6 +6,9 @@
     "bootstrap": "4.3.1",
     "popper": "1.0.1",
     "jquery": "3.4.1",
-    "toastr": "2.1.4"
+    "toastr": "2.1.4",
+    "jquery-validation": "1.19.1",
+    "jquery-validation-unobtrusive": "3.2.11",
+    "@fortawesome/fontawesome-free": "5.10.0-9"
   }
 }

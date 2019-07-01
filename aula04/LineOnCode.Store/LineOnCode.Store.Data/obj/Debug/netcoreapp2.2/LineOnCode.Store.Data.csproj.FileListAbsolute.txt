@@ -1,12 +1,12 @@
-D:\maurilio\aula04\LineOnCode.Store\LineOnCode.Store.Data\bin\Debug\netcoreapp2.2\LineOnCode.Store.Data.deps.json
-D:\maurilio\aula04\LineOnCode.Store\LineOnCode.Store.Data\bin\Debug\netcoreapp2.2\LineOnCode.Store.Data.dll
-D:\maurilio\aula04\LineOnCode.Store\LineOnCode.Store.Data\obj\Debug\netcoreapp2.2\LineOnCode.Store.Data.csproj.CoreCompileInputs.cache
-D:\maurilio\aula04\LineOnCode.Store\LineOnCode.Store.Data\obj\Debug\netcoreapp2.2\LineOnCode.Store.Data.AssemblyInfoInputs.cache
-D:\maurilio\aula04\LineOnCode.Store\LineOnCode.Store.Data\obj\Debug\netcoreapp2.2\LineOnCode.Store.Data.AssemblyInfo.cs
-D:\maurilio\aula04\LineOnCode.Store\LineOnCode.Store.Data\obj\Debug\netcoreapp2.2\LineOnCode.Store.Data.csprojAssemblyReference.cache
-D:\maurilio\aula04\LineOnCode.Store\LineOnCode.Store.Data\bin\Debug\netcoreapp2.2\LineOnCode.Store.Data.pdb
-D:\maurilio\aula04\LineOnCode.Store\LineOnCode.Store.Data\bin\Debug\netcoreapp2.2\LIneOnCode.Store.Domain.dll
-D:\maurilio\aula04\LineOnCode.Store\LineOnCode.Store.Data\bin\Debug\netcoreapp2.2\LIneOnCode.Store.Domain.pdb
-D:\maurilio\aula04\LineOnCode.Store\LineOnCode.Store.Data\obj\Debug\netcoreapp2.2\LineOnCode.Store.Data.csproj.CopyComplete
-D:\maurilio\aula04\LineOnCode.Store\LineOnCode.Store.Data\obj\Debug\netcoreapp2.2\LineOnCode.Store.Data.dll
-D:\maurilio\aula04\LineOnCode.Store\LineOnCode.Store.Data\obj\Debug\netcoreapp2.2\LineOnCode.Store.Data.pdb
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.Data\bin\Debug\netcoreapp2.2\LineOnCode.Store.Data.deps.json
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.Data\bin\Debug\netcoreapp2.2\LineOnCode.Store.Data.dll
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.Data\bin\Debug\netcoreapp2.2\LineOnCode.Store.Data.pdb
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.Data\bin\Debug\netcoreapp2.2\LineOnCode.Store.Domain.dll
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.Data\bin\Debug\netcoreapp2.2\LineOnCode.Store.Domain.pdb
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.Data\obj\Debug\netcoreapp2.2\LineOnCode.Store.Data.csprojAssemblyReference.cache
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.Data\obj\Debug\netcoreapp2.2\LineOnCode.Store.Data.csproj.CoreCompileInputs.cache
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.Data\obj\Debug\netcoreapp2.2\LineOnCode.Store.Data.AssemblyInfoInputs.cache
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.Data\obj\Debug\netcoreapp2.2\LineOnCode.Store.Data.AssemblyInfo.cs
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.Data\obj\Debug\netcoreapp2.2\LineOnCode.Store.Data.csproj.CopyComplete
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.Data\obj\Debug\netcoreapp2.2\LineOnCode.Store.Data.dll
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.Data\obj\Debug\netcoreapp2.2\LineOnCode.Store.Data.pdb

@@ -25,7 +25,7 @@
                     <td scope="row">@usuario.UserName</td>
                     <td scope="row">
                         @*<a class="btn btn-outline-success btn-sm" href="@Url.Action("AddEdit", "Produtos", new { id = @produto.Id})">Editar</a>*@
-                        <a class="btn btn-outline-success btn-sm" asp-action="AddEdit" asp-controller="Produtos" asp-route-id="@usuario.Id">Editar</a>
+                        <a class="btn btn-outline-success btn-sm" asp-action="AddEdit" asp-controller="Usuarios" asp-route-id="@usuario.Id">Editar</a>
                         <button class="btn btn-outline-danger btn-sm" onclick="delItem(@usuario.Id, '@usuario.Nome')">Excluir</button>
                     </td>
                 </tr>
@@ -53,4 +53,45 @@
         </div>
     </div>
 </div>
+
+<script>
+    let _id = 0;
+
+    function delItem(id, nome) {
+        document.querySelector('#nomeItem').textContent = nome;
+        $('#delModal').modal('show');
+        _id = id;
+    }
+
+
+    function confirmarDel() {
+        // alert('excluindo ' + _id);
+        let xhr = new XMLHttpRequest();
+        xhr.open('delete', '@Url.Action("Excluir","Usuarios")/' + _id);
+        xhr.onloadend = _ => {
+            // console.log(xhr);
+            switch (xhr.status) {
+                case 204:
+                    document.querySelector('#item-' + _id).remove();
+                    toastr.success('Item excluído c/ sucesso!','Line on Code Store');
+                    break;
+                case 404:
+                    toastr.warning('Item não localizado na base','Line on Code Store');
+                    break;
+                default:
+                    toastr.error('Ocorreu um erro ao tentar excluir', 'Line on Code Store');
+            }
+            $('#delModal').modal('hide');
+        }
+
+        xhr.send();
+    }
+</script>
+
+@section scripts{
+    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />*@
+    <script src="~/node_modules/toastr/build/toastr.min.js"></script>
+    <link href="~/node_modules/toastr/build/toastr.min.css" rel="stylesheet" />
+}
 
