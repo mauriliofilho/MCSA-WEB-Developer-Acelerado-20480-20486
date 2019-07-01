@@ -49,7 +49,7 @@ namespace LineOnCode.Store.Data.EF.Repositories
 
         public async Task<T> GetAsync(int id)
         {
-            return await _db.FindAsync(id);
+            return await _db.FindAsync();
         }
 
         public async Task<IEnumerable<T>> GetAllAsync()
