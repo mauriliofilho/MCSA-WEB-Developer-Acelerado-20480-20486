@@ -124,6 +124,75 @@
         }
       }
     },
+    "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LineOnCode.Store.IoCDI\\LineOnCode.Store.IoCDI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LineOnCode.Store.IoCDI\\LineOnCode.Store.IoCDI.csproj",
+        "projectName": "LineOnCode.Store.IoCDI",
+        "projectPath": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LineOnCode.Store.IoCDI\\LineOnCode.Store.IoCDI.csproj",
+        "packagesPath": "C:\\Users\\Maurilio Filho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LineOnCode.Store.IoCDI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Maurilio Filho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LineOnCode.Store.Data\\LineOnCode.Store.Data.csproj": {
+                "projectPath": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LineOnCode.Store.Data\\LineOnCode.Store.Data.csproj"
+              },
+              "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LineOnCode.Store.Domain.csproj": {
+                "projectPath": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LineOnCode.Store.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
     "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LineOnCode.Store.UI\\LineOnCode.Store.UI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -157,6 +226,9 @@
               },
               "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LineOnCode.Store.Domain.csproj": {
                 "projectPath": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LineOnCode.Store.Domain.csproj"
+              },
+              "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LineOnCode.Store.IoCDI\\LineOnCode.Store.IoCDI.csproj": {
+                "projectPath": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LineOnCode.Store.IoCDI\\LineOnCode.Store.IoCDI.csproj"
               }
             }
           }

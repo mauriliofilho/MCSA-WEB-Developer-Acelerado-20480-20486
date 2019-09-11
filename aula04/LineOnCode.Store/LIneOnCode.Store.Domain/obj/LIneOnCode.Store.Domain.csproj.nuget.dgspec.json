@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\maurilio\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LIneOnCode.Store.Domain.csproj": {}
+    "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LineOnCode.Store.Domain.csproj": {}
   },
   "projects": {
-    "D:\\maurilio\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LIneOnCode.Store.Domain.csproj": {
+    "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LineOnCode.Store.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\maurilio\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LIneOnCode.Store.Domain.csproj",
-        "projectName": "LIneOnCode.Store.Domain",
-        "projectPath": "D:\\maurilio\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LIneOnCode.Store.Domain.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\maurilio\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\obj\\",
+        "projectUniqueName": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LineOnCode.Store.Domain.csproj",
+        "projectName": "LineOnCode.Store.Domain",
+        "projectPath": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LineOnCode.Store.Domain.csproj",
+        "packagesPath": "C:\\Users\\Maurilio Filho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Maurilio Filho\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"

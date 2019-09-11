@@ -26,6 +26,7 @@
         "dependencies": {
           "LineOnCode.Store.Data": "1.0.0",
           "LineOnCode.Store.Domain": "1.0.0",
+          "LineOnCode.Store.IoCDI": "1.0.0",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
@@ -475,6 +476,20 @@
         },
         "compile": {
           "LineOnCode.Store.Domain.dll": {}
+        }
+      },
+      "LineOnCode.Store.IoCDI/1.0.0": {
+        "dependencies": {
+          "LineOnCode.Store.Data": "1.0.0",
+          "LineOnCode.Store.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "LineOnCode.Store.IoCDI.dll": {}
+        },
+        "compile": {
+          "LineOnCode.Store.IoCDI.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3787,6 +3802,11 @@
       "sha512": ""
     },
     "LineOnCode.Store.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LineOnCode.Store.IoCDI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

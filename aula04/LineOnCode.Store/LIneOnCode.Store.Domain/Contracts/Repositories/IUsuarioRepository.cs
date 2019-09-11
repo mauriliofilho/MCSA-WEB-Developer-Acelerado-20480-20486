@@ -9,6 +9,6 @@ namespace LineOnCode.Store.Domain.Contracts.Repositories
 {
     public interface IUsuarioRepository : IRepository<Usuario>
     {
-        
+        Task<Usuario> GetUsuarioByUserNameAsync(string userName);
     }
 }

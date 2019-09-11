@@ -21,11 +21,11 @@ namespace LineOnCode.Store.Data.EF
 
 
             modelBuilder.Entity<Produto>().HasData(
-                new Produto() { Id = 1, Nome = "Arroz", ValorUnitario = 11.9m, CategoriaId = 1 },
-                new Produto() { Id = 2, Nome = "Faijao", ValorUnitario = 5.9m, CategoriaId = 1 },
-                new Produto() { Id = 3, Nome = "Oleo", ValorUnitario = 2.9m, CategoriaId = 1 },
-                new Produto() { Id = 4, Nome = "Sal", ValorUnitario = 0.9m, CategoriaId = 1 },
-                new Produto() { Id = 5, Nome = "Fuba", ValorUnitario = 1.9m, CategoriaId = 1 }
+                new Produto() { Id = 1, Nome = "Arroz", ValorUnitario = 11.9m, CategoriaId = 1, Descricao = "Comida Saldavel" },
+                new Produto() { Id = 2, Nome = "Faijao", ValorUnitario = 5.9m, CategoriaId = 1, Descricao = "Comida Saldavel" },
+                new Produto() { Id = 3, Nome = "Oleo", ValorUnitario = 2.9m, CategoriaId = 1, Descricao = "Comida Saldavel" },
+                new Produto() { Id = 4, Nome = "Sal", ValorUnitario = 0.9m, CategoriaId = 1, Descricao = "Comida Saldavel" },
+                new Produto() { Id = 5, Nome = "Fuba", ValorUnitario = 1.9m, CategoriaId = 1, Descricao = "Comida Saldavel" }
                 );
 
             modelBuilder.Entity<Usuario>().HasData(

@@ -7,8 +7,10 @@ C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\bin\Debug\netcoreapp2.2\LineOnCode.Store.UI.Views.pdb
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\bin\Debug\netcoreapp2.2\LineOnCode.Store.Data.dll
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\bin\Debug\netcoreapp2.2\LineOnCode.Store.Domain.dll
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\bin\Debug\netcoreapp2.2\LineOnCode.Store.IoCDI.dll
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\bin\Debug\netcoreapp2.2\LineOnCode.Store.Data.pdb
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\bin\Debug\netcoreapp2.2\LineOnCode.Store.Domain.pdb
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\bin\Debug\netcoreapp2.2\LineOnCode.Store.IoCDI.pdb
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\LineOnCode.Store.UI.csprojAssemblyReference.cache
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\LineOnCode.Store.UI.csproj.CoreCompileInputs.cache
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\LineOnCode.Store.UI.RazorAssemblyInfo.cache
@@ -18,7 +20,12 @@ C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\LineOnCode.Store.UI.TagHelpers.input.cache
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\LineOnCode.Store.UI.TagHelpers.output.cache
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\LineOnCode.Store.UI.RazorCoreGenerate.cache
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\Razor\Views\Auth\SignIn.g.cshtml.cs
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\Razor\Views\Auth\UserInformation.g.cshtml.cs
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\Razor\Views\Auth\_ViewImports.g.cshtml.cs
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\Razor\Views\Categorias\Index.g.cshtml.cs
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\Razor\Views\Errors\E404.g.cshtml.cs
+C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\Razor\Views\Errors\E500.g.cshtml.cs
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.g.cshtml.cs
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\Maurilio Filho\Source\Repos\mauriliofilho\MCSA-WEB-Developer-Acelerado-20480-20486\aula04\LineOnCode.Store\LineOnCode.Store.UI\obj\Debug\netcoreapp2.2\Razor\Views\Produtos\AddEdit.g.cshtml.cs

@@ -4745,6 +4745,22 @@
         "runtime": {
           "bin/placeholder/LineOnCode.Store.Domain.dll": {}
         }
+      },
+      "LineOnCode.Store.IoCDI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "LineOnCode.Store.Data": "1.0.0",
+          "LineOnCode.Store.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "2.2.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
+        },
+        "compile": {
+          "bin/placeholder/LineOnCode.Store.IoCDI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LineOnCode.Store.IoCDI.dll": {}
+        }
       }
     }
   },
@@ -8301,11 +8317,12 @@
       ]
     },
     "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple/4.3.0": {
-      "sha512": "Kh9W4agE0r/hK8AX1LvyQI2NrKHBL8pO0gRoDTdDb0LL6Ta1Z2OtFx3lOaAE0ZpCUc/dt9Wzs3rA7a3IsKdOVA==",
+      "sha512": "kVXCuMTrTlxq4XOOMAysuNwsXWpYeboGddNGpIgNSZmv1b6r/s/DPk0fYMB7Q5Qo4bY68o48jt4T4y5BVecbCQ==",
       "type": "package",
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
@@ -8711,7 +8728,7 @@
       ]
     },
     "System.Collections.Specialized/4.3.0": {
-      "sha512": "NoPBj0ykejqAWW4p4gGtrrL+3c84ZLSvGnHgq422ew1Rj4WKj1FA8/BCybqC111EtgcqUl6ZJNFYYS22HLgbjA==",
+      "sha512": "Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
       "type": "package",
       "path": "system.collections.specialized/4.3.0",
       "files": [
@@ -11740,7 +11757,7 @@
       ]
     },
     "System.Security.Cryptography.Csp/4.3.0": {
-      "sha512": "yO2k5o+Z+DiFRBvvB9vdRRAGHi6bm02M9OWXfCqQ8K0UxD3Woc3svQheZfb7PoTEFs0kGacO0IzzMWsb6Mkeow==",
+      "sha512": "X4s/FCkEUnRGnwR3aSfVIkldBmtURMhmexALNTwpjklzxWU7yjMk7GHLKOZTNkgnWnE0q7+BCf9N2LVRWxewaA==",
       "type": "package",
       "path": "system.security.cryptography.csp/4.3.0",
       "files": [
@@ -11813,7 +11830,7 @@
       ]
     },
     "System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "vOYy7Jv9KsG3ld2hLt0GoERd82SZi4BelrbXLwI9yFBYX7kpbvUCWYo4eyevk47cuJXZ9ZLVAryANcc7iY71aA==",
+      "sha512": "h4CEgOgv5PKVF/HwaHzJRiVboL2THYCou97zpmhjghx5frc7fIvlkY1jL+lnIQyChrJDMNEXS6r7byGif8Cy4w==",
       "type": "package",
       "path": "system.security.cryptography.openssl/4.3.0",
       "files": [
@@ -13026,12 +13043,18 @@
       "type": "project",
       "path": "../LIneOnCode.Store.Domain/LineOnCode.Store.Domain.csproj",
       "msbuildProject": "../LIneOnCode.Store.Domain/LineOnCode.Store.Domain.csproj"
+    },
+    "LineOnCode.Store.IoCDI/1.0.0": {
+      "type": "project",
+      "path": "../LineOnCode.Store.IoCDI/LineOnCode.Store.IoCDI.csproj",
+      "msbuildProject": "../LineOnCode.Store.IoCDI/LineOnCode.Store.IoCDI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "LineOnCode.Store.Data >= 1.0.0",
       "LineOnCode.Store.Domain >= 1.0.0",
+      "LineOnCode.Store.IoCDI >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -13076,6 +13099,9 @@
             },
             "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LineOnCode.Store.Domain.csproj": {
               "projectPath": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LIneOnCode.Store.Domain\\LineOnCode.Store.Domain.csproj"
+            },
+            "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LineOnCode.Store.IoCDI\\LineOnCode.Store.IoCDI.csproj": {
+              "projectPath": "C:\\Users\\Maurilio Filho\\Source\\Repos\\mauriliofilho\\MCSA-WEB-Developer-Acelerado-20480-20486\\aula04\\LineOnCode.Store\\LineOnCode.Store.IoCDI\\LineOnCode.Store.IoCDI.csproj"
             }
           }
         }

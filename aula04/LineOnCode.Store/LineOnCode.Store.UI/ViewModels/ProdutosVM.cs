@@ -11,17 +11,19 @@ namespace LineOnCode.Store.UI.ViewModels
     public class AddEditVM
     {
 
-            [Required(ErrorMessage = "campo obrigatório")]
-            [StringLength(100, ErrorMessage = "limite do {0} é {1}")]
-            [Display(Name ="Nome")]
-            public string Nome { get; set; }
-            [Required(ErrorMessage = "campo obrigatório")]
-            [Display(Name ="Valor Unitario")]
-            public decimal? ValorUnitario { get; set; }
+        [Required(ErrorMessage = "campo obrigatório")]
+        [StringLength(100, ErrorMessage = "limite do {0} é {1}")]
+        [Display(Name ="Nome")]
+        public string Nome { get; set; }
+        [Required(ErrorMessage = "campo obrigatório")]
+        [Display(Name ="Valor Unitario")]
+        public decimal? ValorUnitario { get; set; }
 
-            [Required(ErrorMessage = "campo obrigatório")]
-            [Display(Name ="Categoria do produto")]
-            public int? CategoriaId { get; set; }
+        [Required(ErrorMessage = "campo obrigatório")]
+        [Display(Name ="Categoria do produto")]
+        public int? CategoriaId { get; set; }
+        [StringLength(300, ErrorMessage ="TAmanho da Descricao Invalido")]
+        public string Descricao { get; set; }
 
     }
 
@@ -34,7 +36,8 @@ namespace LineOnCode.Store.UI.ViewModels
                 Id = id,
                 Nome = vm.Nome,
                 ValorUnitario = (decimal)vm.ValorUnitario,
-                CategoriaId = (int)vm.CategoriaId
+                CategoriaId = (int)vm.CategoriaId,
+                Descricao = vm.Descricao
             };
         }
 
@@ -44,7 +47,8 @@ namespace LineOnCode.Store.UI.ViewModels
             {
                 Nome = data.Nome,
                 ValorUnitario = (decimal)data.ValorUnitario,
-                CategoriaId = (int)data.CategoriaId
+                CategoriaId = (int)data.CategoriaId,
+                Descricao = data.Descricao
             };
         }
     }

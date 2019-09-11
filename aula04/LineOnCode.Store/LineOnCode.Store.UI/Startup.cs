@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using LineOnCode.Store.Data.EF;
 using LineOnCode.Store.Data.EF.Repositories;
 using LineOnCode.Store.Domain.Contracts.Repositories;
+using LineOnCode.Store.IoCDI;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -19,7 +20,7 @@ namespace LineOnCode.Store.UI
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
+            services.AddMvc(options => options.Filters.Add(typeof(Infra.GlobalExceptionFilter)));
             services.AddAuthentication(configureOptions =>
             {
                 configureOptions.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
@@ -27,16 +28,7 @@ namespace LineOnCode.Store.UI
                 configureOptions.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
             }).AddCookie(configureOptions => configureOptions.LoginPath = "/auth/signin" );
 
-            //Unico na Aplicacao
-            //services.AddSingleton<StoreDataContext>();
-            //Unico em toda a requisicao mais indicado deve no final dar um unico savchanges!
-            services.AddScoped<StoreDataContext>();
-            //Gera um sempre que for requisitado ou toda vez que foi utilizado
-            //services.AddTransient<StoreDataContext>();
-
-            services.AddTransient<IProdutoRepository, ProdutoRepositoryEF>();
-            services.AddTransient<ICategoriaRepository, CategoriaRepositoryEF>();
-            services.AddTransient<IUsuarioRepository, UsuarioRepositoryEF>();
+            services.Init();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -19,5 +19,15 @@ namespace LineOnCode.Store.Data.EF.Repositories
         {
             return _db.Include(x => x.Categoria).ToList();
         }
+
+        public async Task<IEnumerable<Produto>> GetWithCategoriaAsync()
+        {
+            return await _db.Include(x => x.Categoria).ToListAsync();
+        }
+
+        public async Task<Produto> GetWithCategoriaAsync(int Id)
+        {
+            return await _db.Include(x => x.Categoria).FirstOrDefaultAsync(p => p.Id == Id);
+        }
     }
 }

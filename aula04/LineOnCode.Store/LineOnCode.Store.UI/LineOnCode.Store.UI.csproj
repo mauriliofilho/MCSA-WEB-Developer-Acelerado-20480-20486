@@ -14,10 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\LineOnCode.Store.Data\LineOnCode.Store.Data.csproj" />
     <ProjectReference Include="..\LIneOnCode.Store.Domain\LineOnCode.Store.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Views\NewFolder\" />
+    <ProjectReference Include="..\LineOnCode.Store.IoCDI\LineOnCode.Store.IoCDI.csproj" />
   </ItemGroup>
 
 </Project>

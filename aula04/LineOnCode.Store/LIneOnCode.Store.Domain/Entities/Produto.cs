@@ -26,5 +26,8 @@ namespace LineOnCode.Store.Domain.Entities
         [ForeignKey(nameof(CategoriaId))]
         public Categoria Categoria { get; set; }
 
+        [Column(TypeName = "Varchar(255)")]
+        public string Descricao { get; set; }
+
     }
 }

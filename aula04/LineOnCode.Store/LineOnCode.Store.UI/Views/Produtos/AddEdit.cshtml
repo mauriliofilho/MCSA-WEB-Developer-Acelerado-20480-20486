@@ -17,7 +17,7 @@
             <input type="text" asp-for="Nome" class="form-control" name="Nome" autofocus>
             @*@Html.ValidationMessageFor(m=>m.Nome)*@
             <span asp-validation-for="Nome" style="color:red"></span>
-            
+
         </div>
 
         <div class="form-group col-md-4">
@@ -25,7 +25,7 @@
             <select asp-for="CategoriaId" asp-items="ViewBag.Categoria" class="form-control">
                 <option selected value="">Escolha...</option>
             </select>
-           @* @Html.ValidationMessageFor(m => m.CategoriaId)*@
+            @* @Html.ValidationMessageFor(m => m.CategoriaId)*@
             <span asp-validation-for="CategoriaId" style="color:red"></span>
         </div>
 
@@ -37,6 +37,12 @@
             @*@Html.ValidationMessageFor(m => m.ValorUnitario)*@
             <span asp-validation-for="ValorUnitario" style="color:red"></span>
         </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Descricao"></label>
+        <textarea class="form-control" asp-for="Descricao"  rows="3"></textarea>
+        <span asp-validation-for="Descricao"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">Salvar</button>

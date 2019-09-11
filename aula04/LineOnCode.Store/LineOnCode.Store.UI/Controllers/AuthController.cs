@@ -52,6 +52,16 @@ namespace LineOnCode.Store.UI.Controllers
             return View(loginVM);
         }
 
+        //public async IActionResult SignOut()
+        //{
+        //    return await View();
+        //}
+
+        public IActionResult UserInformation()
+        {
+            return View();
+        }
+
         private async Task LogarUsuario(string nome, string userName)
         {
             var claims = new List<Claim>()
