@@ -5,7 +5,7 @@
   "dependencies": {
     "bootstrap": "4.3.1",
     "popper": "1.0.1",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "toastr": "2.1.4"
   }
 }
